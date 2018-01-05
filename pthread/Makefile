@@ -1,5 +1,5 @@
 myThread:myThread.c
-	gcc -g -o $@ $^ -lpthread
+	gcc -o $@ $^ -lpthread
 
 .PHONY:cl
 cl:

@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <error.h>
-#include <pthread.h>
+#include <pthread.h> //POSIX thread lib
 
 size_t g_count = 0;
 
