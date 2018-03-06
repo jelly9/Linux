@@ -1,0 +1,254 @@
+  PPID    PID   PGID    SID TTY       TPGID STAT   UID   TIME COMMAND
+     0      1      1      1 ?            -1 Ss       0   0:04 /sbin/init auto noprompt
+     0      2      0      0 ?            -1 S        0   0:00 [kthreadd]
+     2      4      0      0 ?            -1 S<       0   0:00 [kworker/0:0H]
+     2      6      0      0 ?            -1 S<       0   0:00 [mm_percpu_wq]
+     2      7      0      0 ?            -1 S        0   0:00 [ksoftirqd/0]
+     2      8      0      0 ?            -1 S        0   0:04 [rcu_sched]
+     2      9      0      0 ?            -1 S        0   0:00 [rcu_bh]
+     2     10      0      0 ?            -1 S        0   0:00 [migration/0]
+     2     11      0      0 ?            -1 S        0   0:00 [watchdog/0]
+     2     12      0      0 ?            -1 S        0   0:00 [cpuhp/0]
+     2     13      0      0 ?            -1 S        0   0:00 [cpuhp/1]
+     2     14      0      0 ?            -1 S        0   0:00 [watchdog/1]
+     2     15      0      0 ?            -1 S        0   0:00 [migration/1]
+     2     16      0      0 ?            -1 S        0   0:00 [ksoftirqd/1]
+     2     18      0      0 ?            -1 S<       0   0:00 [kworker/1:0H]
+     2     19      0      0 ?            -1 S        0   0:00 [cpuhp/2]
+     2     20      0      0 ?            -1 S        0   0:00 [watchdog/2]
+     2     21      0      0 ?            -1 S        0   0:00 [migration/2]
+     2     22      0      0 ?            -1 S        0   0:01 [ksoftirqd/2]
+     2     24      0      0 ?            -1 S<       0   0:00 [kworker/2:0H]
+     2     25      0      0 ?            -1 S        0   0:00 [cpuhp/3]
+     2     26      0      0 ?            -1 S        0   0:00 [watchdog/3]
+     2     27      0      0 ?            -1 S        0   0:00 [migration/3]
+     2     28      0      0 ?            -1 S        0   0:03 [ksoftirqd/3]
+     2     30      0      0 ?            -1 S<       0   0:00 [kworker/3:0H]
+     2     31      0      0 ?            -1 S        0   0:00 [kdevtmpfs]
+     2     32      0      0 ?            -1 S<       0   0:00 [netns]
+     2     37      0      0 ?            -1 S        0   0:00 [khungtaskd]
+     2     38      0      0 ?            -1 S        0   0:00 [oom_reaper]
+     2     39      0      0 ?            -1 S<       0   0:00 [writeback]
+     2     40      0      0 ?            -1 S        0   0:00 [kcompactd0]
+     2     41      0      0 ?            -1 SN       0   0:00 [ksmd]
+     2     42      0      0 ?            -1 SN       0   0:00 [khugepaged]
+     2     43      0      0 ?            -1 S<       0   0:00 [crypto]
+     2     44      0      0 ?            -1 S<       0   0:00 [kintegrityd]
+     2     45      0      0 ?            -1 S<       0   0:00 [kblockd]
+     2     46      0      0 ?            -1 S<       0   0:00 [ata_sff]
+     2     47      0      0 ?            -1 S<       0   0:00 [md]
+     2     48      0      0 ?            -1 S<       0   0:00 [edac-poller]
+     2     49      0      0 ?            -1 S<       0   0:00 [devfreq_wq]
+     2     50      0      0 ?            -1 S<       0   0:00 [watchdogd]
+     2     53      0      0 ?            -1 S        0   0:00 [kauditd]
+     2     54      0      0 ?            -1 S        0   0:15 [kswapd0]
+     2     55      0      0 ?            -1 S        0   0:00 [ecryptfs-kthrea]
+     2     97      0      0 ?            -1 S<       0   0:00 [kthrotld]
+     2     98      0      0 ?            -1 S<       0   0:00 [acpi_thermal_pm]
+     2     99      0      0 ?            -1 S        0   0:00 [scsi_eh_0]
+     2    100      0      0 ?            -1 S<       0   0:00 [scsi_tmf_0]
+     2    101      0      0 ?            -1 S        0   0:00 [scsi_eh_1]
+     2    102      0      0 ?            -1 S<       0   0:00 [scsi_tmf_1]
+     2    108      0      0 ?            -1 S<       0   0:00 [ipv6_addrconf]
+     2    133      0      0 ?            -1 S<       0   0:00 [charger_manager]
+     2    183      0      0 ?            -1 S<       0   0:00 [mpt_poll_0]
+     2    184      0      0 ?            -1 S<       0   0:00 [mpt/0]
+     2    185      0      0 ?            -1 S        0   0:00 [scsi_eh_2]
+     2    186      0      0 ?            -1 S<       0   0:00 [scsi_tmf_2]
+     2    187      0      0 ?            -1 S        0   0:00 [scsi_eh_3]
+     2    188      0      0 ?            -1 S<       0   0:00 [scsi_tmf_3]
+     2    189      0      0 ?            -1 S        0   0:00 [scsi_eh_4]
+     2    190      0      0 ?            -1 S<       0   0:00 [scsi_tmf_4]
+     2    191      0      0 ?            -1 S        0   0:00 [scsi_eh_5]
+     2    192      0      0 ?            -1 S<       0   0:00 [scsi_tmf_5]
+     2    193      0      0 ?            -1 S        0   0:00 [scsi_eh_6]
+     2    194      0      0 ?            -1 S<       0   0:00 [scsi_tmf_6]
+     2    195      0      0 ?            -1 S        0   0:00 [scsi_eh_7]
+     2    196      0      0 ?            -1 S<       0   0:00 [scsi_tmf_7]
+     2    197      0      0 ?            -1 S        0   0:00 [scsi_eh_8]
+     2    198      0      0 ?            -1 S<       0   0:00 [scsi_tmf_8]
+     2    199      0      0 ?            -1 S        0   0:00 [scsi_eh_9]
+     2    200      0      0 ?            -1 S<       0   0:00 [scsi_tmf_9]
+     2    201      0      0 ?            -1 S        0   0:00 [scsi_eh_10]
+     2    202      0      0 ?            -1 S<       0   0:00 [scsi_tmf_10]
+     2    203      0      0 ?            -1 S        0   0:00 [scsi_eh_11]
+     2    204      0      0 ?            -1 S<       0   0:00 [scsi_tmf_11]
+     2    205      0      0 ?            -1 S        0   0:00 [scsi_eh_12]
+     2    206      0      0 ?            -1 S<       0   0:00 [scsi_tmf_12]
+     2    207      0      0 ?            -1 S        0   0:00 [scsi_eh_13]
+     2    208      0      0 ?            -1 S<       0   0:00 [scsi_tmf_13]
+     2    209      0      0 ?            -1 S        0   0:00 [scsi_eh_14]
+     2    210      0      0 ?            -1 S<       0   0:00 [scsi_tmf_14]
+     2    211      0      0 ?            -1 S        0   0:00 [scsi_eh_15]
+     2    212      0      0 ?            -1 S<       0   0:00 [scsi_tmf_15]
+     2    213      0      0 ?            -1 S        0   0:00 [scsi_eh_16]
+     2    214      0      0 ?            -1 S<       0   0:00 [scsi_tmf_16]
+     2    215      0      0 ?            -1 S        0   0:00 [scsi_eh_17]
+     2    216      0      0 ?            -1 S<       0   0:00 [scsi_tmf_17]
+     2    217      0      0 ?            -1 S        0   0:00 [scsi_eh_18]
+     2    218      0      0 ?            -1 S<       0   0:00 [scsi_tmf_18]
+     2    219      0      0 ?            -1 S        0   0:00 [scsi_eh_19]
+     2    220      0      0 ?            -1 S<       0   0:00 [scsi_tmf_19]
+     2    221      0      0 ?            -1 S        0   0:00 [scsi_eh_20]
+     2    222      0      0 ?            -1 S<       0   0:00 [scsi_tmf_20]
+     2    223      0      0 ?            -1 S        0   0:00 [scsi_eh_21]
+     2    224      0      0 ?            -1 S<       0   0:00 [scsi_tmf_21]
+     2    225      0      0 ?            -1 S        0   0:00 [scsi_eh_22]
+     2    226      0      0 ?            -1 S<       0   0:00 [scsi_tmf_22]
+     2    227      0      0 ?            -1 S        0   0:00 [scsi_eh_23]
+     2    228      0      0 ?            -1 S<       0   0:00 [scsi_tmf_23]
+     2    229      0      0 ?            -1 S        0   0:00 [scsi_eh_24]
+     2    230      0      0 ?            -1 S<       0   0:00 [scsi_tmf_24]
+     2    231      0      0 ?            -1 S        0   0:00 [scsi_eh_25]
+     2    232      0      0 ?            -1 S<       0   0:00 [scsi_tmf_25]
+     2    233      0      0 ?            -1 S        0   0:00 [scsi_eh_26]
+     2    234      0      0 ?            -1 S<       0   0:00 [scsi_tmf_26]
+     2    235      0      0 ?            -1 S        0   0:00 [scsi_eh_27]
+     2    236      0      0 ?            -1 S<       0   0:00 [scsi_tmf_27]
+     2    237      0      0 ?            -1 S        0   0:00 [scsi_eh_28]
+     2    238      0      0 ?            -1 S<       0   0:00 [scsi_tmf_28]
+     2    239      0      0 ?            -1 S        0   0:00 [scsi_eh_29]
+     2    240      0      0 ?            -1 S<       0   0:00 [scsi_tmf_29]
+     2    241      0      0 ?            -1 S        0   0:00 [scsi_eh_30]
+     2    242      0      0 ?            -1 S<       0   0:00 [scsi_tmf_30]
+     2    243      0      0 ?            -1 S        0   0:00 [scsi_eh_31]
+     2    244      0      0 ?            -1 S<       0   0:00 [scsi_tmf_31]
+     2    245      0      0 ?            -1 S        0   0:00 [scsi_eh_32]
+     2    246      0      0 ?            -1 S<       0   0:00 [scsi_tmf_32]
+     2    275      0      0 ?            -1 S<       0   0:00 [ttm_swap]
+     2    278      0      0 ?            -1 S<       0   0:00 [kworker/0:1H]
+     2    303      0      0 ?            -1 S        0   0:00 [jbd2/sda1-8]
+     2    304      0      0 ?            -1 S<       0   0:00 [ext4-rsv-conver]
+     2    329      0      0 ?            -1 S<       0   0:00 [kworker/2:1H]
+     1    338    338    338 ?            -1 Ss       0   0:01 /lib/systemd/systemd-journald
+     2    340      0      0 ?            -1 S<       0   0:04 [kworker/3:1H]
+     2    341      0      0 ?            -1 S<       0   0:00 [kworker/1:1H]
+     1    349    349    349 ?            -1 Ss       0   0:00 /lib/systemd/systemd-udevd
+     2    363      0      0 ?            -1 S        0   0:00 [kworker/2:2]
+     1    383    383    383 ?            -1 Ssl      0   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+     1    439    439    439 ?            -1 Ssl    100   0:38 /lib/systemd/systemd-timesyncd
+     2    510      0      0 ?            -1 S<       0   0:00 [nfit]
+     2    595      0      0 ?            -1 S<       0   0:00 [kworker/u257:0]
+     2    596      0      0 ?            -1 S<       0   0:00 [kworker/u257:1]
+     2    691      0      0 ?            -1 S        0   0:00 [kworker/0:3]
+     1    861    861    861 ?            -1 Ss       0   0:00 /lib/systemd/systemd-logind
+     1    876    876    876 ?            -1 Ss       0   0:00 /usr/sbin/cron -f
+     1    879    879    879 ?            -1 Ssl    104   0:01 /usr/sbin/rsyslogd -n
+     1    881    881    881 ?            -1 Ss       0   0:00 /usr/sbin/cupsd -l
+     1    883    883    883 ?            -1 Ssl      0   0:05 /usr/sbin/thermald --no-daemon --dbus-enable
+     1    884    884    884 ?            -1 Ss     106   0:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+     1    897    897    897 ?            -1 Ssl      0   0:20 /usr/bin/vmtoolsd
+     1    899    899    899 ?            -1 Ss       0   0:00 /usr/sbin/acpid
+     1    903    903    903 ?            -1 Ss     111   0:02 avahi-daemon: running [ubuntu-2.local]
+     1    905    905    905 ?            -1 Ssl      0   0:00 /usr/sbin/ModemManager
+     1    906    906    906 ?            -1 Ssl      0   0:00 /usr/lib/accountsservice/accounts-daemon
+     1    908    908    908 ?            -1 Ssl      0   0:02 /usr/sbin/NetworkManager --no-daemon
+     1    909    909    909 ?            -1 Ss       0   0:00 /usr/lib/bluetooth/bluetoothd
+     1    919    919    919 ?            -1 Ssl      0   0:00 /usr/lib/snapd/snapd
+     1    943    943    943 tty1        943 Ss+      0   0:00 /sbin/agetty --noclear tty1 linux
+     1    961    961    961 ?            -1 Ss       0   0:01 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+   881    976    976    881 ?            -1 S        7   0:00 /usr/lib/cups/notifier/dbus dbus://
+   903    986    903    903 ?            -1 S      111   0:00 avahi-daemon: chroot helper
+     1    988    988    988 ?            -1 Ssl      0   0:00 /usr/sbin/cups-browsed
+     1    998    998    998 ?            -1 SLsl     0   0:00 /usr/sbin/lightdm
+     1   1000   1000   1000 ?            -1 Ssl      0   0:01 /usr/lib/policykit-1/polkitd --no-debug
+     1   1002   1002   1002 ?            -1 Ss       0   0:00 /usr/sbin/sshd -D
+   908   1024   1024    908 ?            -1 S        0   0:01 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-f6b273d8-e7c9-373e-8b0e-a5ca7987b663-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+   998   1034   1034   1034 tty7       1034 Ssl+     0   0:56 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+     1   1042   1042   1042 ?            -1 Ssl    122   0:13 /usr/sbin/mysqld
+   908   1055   1055    908 ?            -1 S    65534   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+   998   1298    998    998 ?            -1 Sl       0   0:00 lightdm --session-child 12 19
+     1   1365   1365   1365 ?            -1 SNsl   118   0:00 /usr/lib/rtkit/rtkit-daemon
+     1   1374   1374   1374 ?            -1 Ssl      0   0:00 /usr/lib/upower/upowerd
+     2   1392      0      0 ?            -1 S<       0   0:00 [krfcommd]
+     1   1394   1394   1394 ?            -1 Ssl    113   0:00 /usr/lib/colord/colord
+     1   1412   1412   1412 ?            -1 Ssl    109   0:00 /usr/bin/whoopsie -f
+     1   1440   1440   1440 ?            -1 Ss    1000   0:01 /lib/systemd/systemd --user
+  1440   1441   1440   1440 ?            -1 S     1000   0:00 (sd-pam)
+     1   1446   1445   1445 ?            -1 Sl    1000   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+  1298   1448   1448   1448 ?            -1 Ss    1000   0:00 /sbin/upstart --user
+  1448   1518   1514   1514 ?            -1 S     1000   0:00 upstart-udev-bridge --daemon --user
+  1448   1526   1526   1526 ?            -1 Ss    1000   0:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-mP3ERG4Tt0
+  1448   1538   1538   1538 ?            -1 Ss    1000   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+  1448   1561   1560   1560 ?            -1 S     1000   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+  1448   1563   1562   1562 ?            -1 S     1000   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+  1448   1566   1564   1564 ?            -1 S     1000   0:00 upstart-file-bridge --daemon --user
+  1448   1569   1569   1569 ?            -1 Ssl   1000   0:01 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+  1448   1582   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfsd
+  1448   1588   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+  1569   1592   1569   1569 ?            -1 Sl    1000   0:00 /usr/lib/ibus/ibus-dconf
+  1569   1604   1569   1569 ?            -1 Sl    1000   0:00 /usr/lib/ibus/ibus-ui-gtk3
+  1448   1605   1605   1605 ?            -1 Ssl   1000   0:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+  1448   1607   1569   1569 ?            -1 Sl    1000   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+  1448   1619   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+  1619   1627   1526   1526 ?            -1 S     1000   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+  1448   1629   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+  1569   1633   1569   1569 ?            -1 Sl    1000   0:00 /usr/lib/ibus/ibus-engine-simple
+  1448   1640   1640   1640 ?            -1 Ss    1000   0:01 gpg-agent --homedir /home/jelly/.gnupg --use-standard-socket --daemon
+  1448   1650   1650   1650 ?            -1 Ssl   1000   0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+  1448   1652   1652   1652 ?            -1 Ssl   1000   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+  1448   1661   1661   1661 ?            -1 Ssl   1000   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+  1448   1663   1663   1663 ?            -1 Ssl   1000   0:01 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+  1448   1692   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/dconf/dconf-service
+  1448   1695   1695   1695 ?            -1 Ssl   1000   2:59 compiz
+  1448   1708   1707   1707 ?            -1 S<l   1000   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+  1448   1710   1710   1710 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+  1448   1711   1711   1711 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+  1448   1717   1717   1717 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+  1448   1719   1719   1719 ?            -1 Ssl   1000   0:01 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+  1448   1720   1720   1720 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+  1448   1721   1721   1721 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+  1448   1723   1723   1723 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+  1448   1724   1724   1724 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+  1448   1731   1731   1731 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+  1448   1758   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-source-registry
+  1448   1793   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-calendar-factory
+  1661   1807   1661   1661 ?            -1 Sl    1000   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+  1448   1811   1661   1661 ?            -1 Sl    1000   0:23 /usr/bin/vmtoolsd -n vmusr --blockFd 3
+  1661   1813   1661   1661 ?            -1 Sl    1000   0:01 nm-applet
+  1661   1815   1661   1661 ?            -1 Sl    1000   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+  1661   1816   1661   1661 ?            -1 Sl    1000   0:02 /usr/bin/gnome-software --gapplication-service
+  1661   1817   1661   1661 ?            -1 Sl    1000   0:02 nautilus -n
+  1448   1837   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+     1   1847   1847   1847 ?            -1 Ssl      0   0:00 /usr/lib/udisks2/udisksd --no-debug
+     1   1854    884    884 ?            -1 Sl       0   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+  1448   1857   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+  1448   1863   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+  1448   1870   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+  1448   1878   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+  1793   1884   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1793x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1793/2
+  1793   1894   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1793x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1793/3
+  1448   1897   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-addressbook-factory
+  1448   1900   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+  1897   1921   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1897x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1897/2
+  1448   1941   1526   1526 ?            -1 Sl    1000   0:00 /usr/lib/gvfs/gvfsd-metadata
+  1448   1978   1526   1526 ?            -1 Sl    1000   0:02 /usr/lib/gnome-terminal/gnome-terminal-server
+  1978   1984   1984   1984 pts/17     1984 Ss+   1000   0:00 bash
+  1661   2002   1661   1661 ?            -1 Sl    1000   0:00 zeitgeist-datahub
+  1448   2009   1526   1526 ?            -1 S     1000   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+  2009   2013   1526   1526 ?            -1 Sl    1000   0:00 /usr/bin/zeitgeist-daemon
+  1448   2020   1526   1526 ?            -1 Sl    1000   0:01 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+  1661   2133   1661   1661 ?            -1 Sl    1000   0:01 update-notifier
+  1661   2236   1661   1661 ?            -1 Sl    1000   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+     2   2491      0      0 ?            -1 S        0   0:07 [kworker/1:2]
+     2   2565      0      0 ?            -1 S        0   0:00 [kworker/2:1]
+  1002   2569   2569   2569 ?            -1 Ss       0   0:00 sshd: jelly [priv]
+  2569   2616   2569   2569 ?            -1 S     1000   0:02 sshd: jelly@pts/19
+  2616   2617   2617   2617 pts/19     3151 Ss    1000   0:00 -bash
+     2   3106      0      0 ?            -1 S        0   0:00 [kworker/3:2]
+  2617   3151   3151   2617 pts/19     3151 Sl+   1000   0:04 vim /etc/protocols
+  3151   3152   3152   3152 ?            -1 Ssl   1000   0:01 /usr/bin/python /home/jelly/.vim/bundle/YouCompleteMe/python/ycm/../../third_party/ycmd/ycmd --port=39973 --options_file=/tmp/tmp61pfC1 --log=info --idle_suicide_seconds=1800 --stdout=/tmp/ycmd_39973_stdout_3yel_N.log --stderr=/tmp/ycmd_39973_stderr_5sDeWw.log
+     2   3305      0      0 ?            -1 S        0   0:00 [kworker/u256:0]
+     2   3325      0      0 ?            -1 S        0   0:00 [kworker/0:1]
+  1002   3328   3328   3328 ?            -1 Ss       0   0:00 sshd: jelly [priv]
+  3328   3378   3328   3328 ?            -1 S     1000   0:01 sshd: jelly@pts/21
+  3378   3379   3379   3379 pts/21     3910 Ss    1000   0:00 -bash
+     2   3504      0      0 ?            -1 S        0   0:00 [kworker/1:3]
+  1002   3721   3721   3721 ?            -1 Ss       0   0:00 sshd: jelly [priv]
+  3721   3746   3721   3721 ?            -1 S     1000   0:00 sshd: jelly@pts/20
+  3746   3747   3747   3747 pts/20     3747 Ss+   1000   0:00 -bash
+     2   3831      0      0 ?            -1 S        0   0:00 [kworker/3:3]
+  1448   3837   3837   3837 ?            -1 Ssl   1000   0:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service --lockscreen-mode
+     2   3854      0      0 ?            -1 S        0   0:00 [kworker/u256:1]
+     2   3893      0      0 ?            -1 S        0   0:00 [kworker/u256:2]
+  3379   3910   3910   3379 pts/21     3910 R+    1000   0:00 ps axj
