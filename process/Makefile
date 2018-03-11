@@ -1,7 +1,8 @@
-fork:fork.c
+
+exec:exec.c
 	gcc -o $@ $^
 
 .PHONY:cl
 cl:
-	rm fork
+	rm exec
 
