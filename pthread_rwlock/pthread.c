@@ -13,9 +13,8 @@ void* Write(void *arg)
         pthread_rwlock_wrlock(&g_lock);
         ++g_count;
         printf("write: %d\n", g_count);
-        usleep(789123);
-
         pthread_rwlock_unlock(&g_lock);
+        usleep(789123);
     }
 }
 
@@ -25,10 +24,10 @@ void* Read(void *arg)
 
     while(1){
         pthread_rwlock_rdlock(&g_lock);
+//        ++g_count;
         printf("read: %d\n", g_count);
-        usleep(123456);
-
         pthread_rwlock_unlock(&g_lock);
+        usleep(123456);
     }
 }
 
