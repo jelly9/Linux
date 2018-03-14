@@ -1,11 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <netinet/in.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
 
 /*
  * 一个服务器典型逻辑
@@ -16,6 +8,14 @@
  *      c. 响应客户端
  * */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <netinet/in.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
 
 void Usage(char *proc)
 {
@@ -61,6 +61,8 @@ int main(int argc, char *argv[])
     }
 
     //echo服务器
+
+    close(fd);
 
     return 0;
 }
